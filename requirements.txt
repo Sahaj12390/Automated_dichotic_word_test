@@ -1,0 +1,5 @@
+gradio
+gradio-client
+python-dotenv
+groq
+huggingface_hub==0.22.2
