@@ -113,5 +113,5 @@ with gr.Blocks() as interface:
     transcription_box.change(fn=store_transcription, inputs=transcription_box, outputs=result_box)
     calculate_button.click(fn=calculate_matches, outputs=calculation_result)
     clear_button.click(fn=clr)
-interface.launch(share=True)
+interface.launch(share=False)
 
